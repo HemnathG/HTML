@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Cards Gallery</title>
+		<style>
+			.cards {
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+				align-items: stretch;
+				/* flex-direction: column; 
+							align-items: flex-end;
+							align-items: flex-start;
+							align-items: center;  */
+			}
+
+			.card {
+				flex: 0 0 200px;
+				margin: 10px;
+				border: 1px solid #ccc;
+				box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+			}
+
+			.card img {
+				max-width: 100%;
+				align-content: center;
+			}
+
+			.card .content {
+				padding: 0 20px 20px;
+			}
+
+			.card .content>button {
+				background: gray;
+				border: 0;
+				color: white;
+				padding: 10px;
+				width: 100%;
+			}
+
+			.card:nth-child(1) {
+				width: 420px;
+			}
+		</style>
+	</head>
+
+	<body class="cards">
+		<article class="card">
+			<img src="../assets/Baashha.jpg" alt="Baashha">
+			<div class="content">
+				<h3>Baashha</h3>
+				<p>Baashha is a 1995 Indian Tamil-language action film written and directed by Suresh Krissna.The film stars Rajinikanth, 
+                    Nagma and Raghuvaran, with Janagaraj, Devan, Shashi Kumar and Vijayakumar in supporting roles. </p>
+				<button>Read More</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/beast.jpg" alt="beast">
+			<div class="content">
+				<h3>Dark</h3>
+				<p>Beast is a 2022 Indian Tamil-language action comedy film written and directed by Nelson and produced by Sun Pictures. The film stars Vijay and Pooja Hegde</p>
+				<button>Read More</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/Darbar.jpg" alt="Darbar">
+			<div class="content">
+				<h3>Full Metal Alchemist</h3>
+				<p>Darbar (transl. Court) is a 2020 Indian Tamil-language action thriller film written and directed by A. R. Murugadoss, and produced by Allirajah 
+                    Subaskaran under Lyca Productions. The film stars Rajinikanth, Nayanthara, Nivetha Thomas and Suniel Shetty.</p>
+				<button>Read more</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/Dhruva_Natchathiram.jpg" alt="Dhruva_Natchathiram">
+			<div class="content">
+				<h3>HunterxHunter</h3>
+				<p>Dhruva Natchathiram (transl. Pole star) is an upcoming Indian Tamil-language spy film written and directed by Gautham Vasudev Menon, which stars Vikram in lead role.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/Etharkkum_Thunindhavan.jpg" alt="Etharkkum_Thunindhavan">
+			<div class="content">
+				<h3>Jujutsu Kaisen</h3>
+				<p>Etharkkum Thunindhavan, also known under the initialism ET, is a 2022 Indian Tamil-language action thriller film written and directed by Pandiraj
+                     and produced by Sun Pictures. The film stars Suriya, Priyanka Arul Mohan, and Vinay Rai.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/FIR.jpg" alt="FIR">
+			<div class="content">
+				<h3>Your Lie In April</h3>
+				<p>FIR is a 2022 Indian Tamil-language action thriller film written and directed by Manu Anand and produced by Shubhra and Aryan Ramesh under the banner of VV Studioz. 
+                    The film features Vishnu Vishal,[3] Gautham Vasudev Menon, Manjima Mohan, Reba Monica John, Raiza Wilson in lead roles, and Gaurav Narayanan</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+	</body>
+
+</html>
